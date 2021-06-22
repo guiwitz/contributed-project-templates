@@ -3,3 +3,8 @@
   description: An curated environment for image processing.
   variables:
     description: Describe your project
+- folder: pluto
+  name: Pluto.jl
+  description: A JupyterLab extension to use Pluto.jl notebooks.
+  variables:
+    description: Describe your Julia project
