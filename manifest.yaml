@@ -8,3 +8,8 @@
   description: A JupyterLab extension to use Pluto.jl notebooks.
   variables:
     description: Describe your Julia project
+- folder: desktop
+  name: Renku Desktop
+  description: A Renku Desktop session.
+  variables:
+    description: Describe your project    
