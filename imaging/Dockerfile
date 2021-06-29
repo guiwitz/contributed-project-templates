@@ -16,11 +16,11 @@ COPY Fiji.desktop /home/jovyan/Desktop/
 RUN chmod +x /home/jovyan/Desktop/Fiji.desktop
 
 # Add OMERO plugins
-ENV OMEROIJ_VERSION 5.5.19
-RUN wget -q https://github.com/ome/omero-insight/releases/download/v${OMEROIJ_VERSION}/omero_ij-${OMEROIJ_VERSION}-all.jar \
-        && cp omero_ij-${OMEROIJ_VERSION}-all.jar /opt/Fiji.app/plugins \
-        && rm omero_ij-${OMEROIJ_VERSION}-all.jar \
-        && chmod -R a+rwX /opt/Fiji.app/plugins
+#ENV OMEROIJ_VERSION 5.5.19
+#RUN wget -q https://github.com/ome/omero-insight/releases/download/v${OMEROIJ_VERSION}/omero_ij-${OMEROIJ_VERSION}-all.jar \
+#        && cp omero_ij-${OMEROIJ_VERSION}-all.jar /opt/Fiji.app/plugins \
+#        && rm omero_ij-${OMEROIJ_VERSION}-all.jar \
+#        && chmod -R a+rwX /opt/Fiji.app/plugins
 
 USER ${NB_USER}
 
